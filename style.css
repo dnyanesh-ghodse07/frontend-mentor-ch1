@@ -308,14 +308,8 @@ nav .navbar {
   display: flex;
   gap: 15px;
 }
-.social div {
-  width: 35px;
-  height: 35px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.social {
+  font-size: 35px;
 }
 
 @media (max-width: 375px) {
@@ -328,5 +322,9 @@ nav .navbar {
   .footer_content {
     flex-direction: column;
     gap: 40px;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
   }
 }
